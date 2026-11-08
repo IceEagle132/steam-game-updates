@@ -1,0 +1,5 @@
+Server:
+  Terminal:
+    BeforeContent: 'UpdateStatus'
+  Settings:
+    BeforeContent: 'UpdateSettings'

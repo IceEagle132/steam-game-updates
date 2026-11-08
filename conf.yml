@@ -1,0 +1,16 @@
+info:
+  name: 'Steam Game Updates'
+  identifier: 'steamupdates'
+  description: 'Per-server Steam update status, check frequency and Discord notifications'
+  version: '0.2.0-preview'
+  target: 'beta-2026-08'
+  author: 'IceEagle132'
+  icon: 'icon.png'
+admin:
+  view: 'view.blade.php'
+dashboard:
+  components: 'components'
+requests:
+  routers:
+    web: 'adminroutes.php'
+    client: 'clientroutes.php'

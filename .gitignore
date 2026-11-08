@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Steam Game Updates - private configuration
+host/config.json
+settings.json
+admin.json
+status.json
+.env
+.env.*
+*.log
+*.tmp
